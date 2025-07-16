@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A3AC75D2E281B13008967D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC75C2E281B13008967D7 /* AppDelegate.swift */; };
+		2A3AC75F2E281B13008967D7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2A3AC75E2E281B13008967D7 /* GameScene.sks */; };
+		2A3AC7612E281B13008967D7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2A3AC7602E281B13008967D7 /* Actions.sks */; };
+		2A3AC7632E281B13008967D7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC7622E281B13008967D7 /* GameScene.swift */; };
+		2A3AC7652E281B13008967D7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC7642E281B13008967D7 /* GameViewController.swift */; };
+		2A3AC7682E281B13008967D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3AC7662E281B13008967D7 /* Main.storyboard */; };
+		2A3AC76A2E281B15008967D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3AC7692E281B15008967D7 /* Assets.xcassets */; };
+		2A3AC76D2E281B15008967D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3AC76B2E281B15008967D7 /* LaunchScreen.storyboard */; };
+		2A3AC7772E281B15008967D7 /* Luz_ErranteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC7762E281B15008967D7 /* Luz_ErranteTests.swift */; };
+		2A3AC7812E281B15008967D7 /* Luz_ErranteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC7802E281B15008967D7 /* Luz_ErranteUITests.swift */; };
+		2A3AC7832E281B16008967D7 /* Luz_ErranteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC7822E281B16008967D7 /* Luz_ErranteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A3AC7732E281B15008967D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3AC7512E281B13008967D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3AC7582E281B13008967D7;
+			remoteInfo = "Luz Errante";
+		};
+		2A3AC77D2E281B15008967D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3AC7512E281B13008967D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3AC7582E281B13008967D7;
+			remoteInfo = "Luz Errante";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A3AC7592E281B13008967D7 /* Luz Errante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luz Errante.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3AC75C2E281B13008967D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A3AC75E2E281B13008967D7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2A3AC7602E281B13008967D7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		2A3AC7622E281B13008967D7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2A3AC7642E281B13008967D7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2A3AC7672E281B13008967D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A3AC7692E281B15008967D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A3AC76C2E281B15008967D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A3AC7722E281B15008967D7 /* Luz ErranteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luz ErranteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3AC7762E281B15008967D7 /* Luz_ErranteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luz_ErranteTests.swift; sourceTree = "<group>"; };
+		2A3AC77C2E281B15008967D7 /* Luz ErranteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luz ErranteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3AC7802E281B15008967D7 /* Luz_ErranteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luz_ErranteUITests.swift; sourceTree = "<group>"; };
+		2A3AC7822E281B16008967D7 /* Luz_ErranteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luz_ErranteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3AC7562E281B13008967D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3AC76F2E281B15008967D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3AC7792E281B15008967D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A3AC7502E281B13008967D7 = {
+			isa = PBXGroup;
+			children = (
+				2A3AC75B2E281B13008967D7 /* Luz Errante */,
+				2A3AC7752E281B15008967D7 /* Luz ErranteTests */,
+				2A3AC77F2E281B15008967D7 /* Luz ErranteUITests */,
+				2A3AC75A2E281B13008967D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A3AC75A2E281B13008967D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC7592E281B13008967D7 /* Luz Errante.app */,
+				2A3AC7722E281B15008967D7 /* Luz ErranteTests.xctest */,
+				2A3AC77C2E281B15008967D7 /* Luz ErranteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A3AC75B2E281B13008967D7 /* Luz Errante */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC75C2E281B13008967D7 /* AppDelegate.swift */,
+				2A3AC75E2E281B13008967D7 /* GameScene.sks */,
+				2A3AC7602E281B13008967D7 /* Actions.sks */,
+				2A3AC7622E281B13008967D7 /* GameScene.swift */,
+				2A3AC7642E281B13008967D7 /* GameViewController.swift */,
+				2A3AC7662E281B13008967D7 /* Main.storyboard */,
+				2A3AC7692E281B15008967D7 /* Assets.xcassets */,
+				2A3AC76B2E281B15008967D7 /* LaunchScreen.storyboard */,
+			);
+			path = "Luz Errante";
+			sourceTree = "<group>";
+		};
+		2A3AC7752E281B15008967D7 /* Luz ErranteTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC7762E281B15008967D7 /* Luz_ErranteTests.swift */,
+			);
+			path = "Luz ErranteTests";
+			sourceTree = "<group>";
+		};
+		2A3AC77F2E281B15008967D7 /* Luz ErranteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC7802E281B15008967D7 /* Luz_ErranteUITests.swift */,
+				2A3AC7822E281B16008967D7 /* Luz_ErranteUITestsLaunchTests.swift */,
+			);
+			path = "Luz ErranteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A3AC7582E281B13008967D7 /* Luz Errante */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3AC7862E281B16008967D7 /* Build configuration list for PBXNativeTarget "Luz Errante" */;
+			buildPhases = (
+				2A3AC7552E281B13008967D7 /* Sources */,
+				2A3AC7562E281B13008967D7 /* Frameworks */,
+				2A3AC7572E281B13008967D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Luz Errante";
+			productName = "Luz Errante";
+			productReference = 2A3AC7592E281B13008967D7 /* Luz Errante.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A3AC7712E281B15008967D7 /* Luz ErranteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3AC7892E281B16008967D7 /* Build configuration list for PBXNativeTarget "Luz ErranteTests" */;
+			buildPhases = (
+				2A3AC76E2E281B15008967D7 /* Sources */,
+				2A3AC76F2E281B15008967D7 /* Frameworks */,
+				2A3AC7702E281B15008967D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A3AC7742E281B15008967D7 /* PBXTargetDependency */,
+			);
+			name = "Luz ErranteTests";
+			productName = "Luz ErranteTests";
+			productReference = 2A3AC7722E281B15008967D7 /* Luz ErranteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A3AC77B2E281B15008967D7 /* Luz ErranteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3AC78C2E281B16008967D7 /* Build configuration list for PBXNativeTarget "Luz ErranteUITests" */;
+			buildPhases = (
+				2A3AC7782E281B15008967D7 /* Sources */,
+				2A3AC7792E281B15008967D7 /* Frameworks */,
+				2A3AC77A2E281B15008967D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A3AC77E2E281B15008967D7 /* PBXTargetDependency */,
+			);
+			name = "Luz ErranteUITests";
+			productName = "Luz ErranteUITests";
+			productReference = 2A3AC77C2E281B15008967D7 /* Luz ErranteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A3AC7512E281B13008967D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2A3AC7582E281B13008967D7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2A3AC7712E281B15008967D7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2A3AC7582E281B13008967D7;
+					};
+					2A3AC77B2E281B15008967D7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2A3AC7582E281B13008967D7;
+					};
+				};
+			};
+			buildConfigurationList = 2A3AC7542E281B13008967D7 /* Build configuration list for PBXProject "Luz Errante" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A3AC7502E281B13008967D7;
+			productRefGroup = 2A3AC75A2E281B13008967D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A3AC7582E281B13008967D7 /* Luz Errante */,
+				2A3AC7712E281B15008967D7 /* Luz ErranteTests */,
+				2A3AC77B2E281B15008967D7 /* Luz ErranteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A3AC7572E281B13008967D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3AC7682E281B13008967D7 /* Main.storyboard in Resources */,
+				2A3AC75F2E281B13008967D7 /* GameScene.sks in Resources */,
+				2A3AC76A2E281B15008967D7 /* Assets.xcassets in Resources */,
+				2A3AC76D2E281B15008967D7 /* LaunchScreen.storyboard in Resources */,
+				2A3AC7612E281B13008967D7 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3AC7702E281B15008967D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3AC77A2E281B15008967D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A3AC7552E281B13008967D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3AC7632E281B13008967D7 /* GameScene.swift in Sources */,
+				2A3AC7652E281B13008967D7 /* GameViewController.swift in Sources */,
+				2A3AC75D2E281B13008967D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3AC76E2E281B15008967D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3AC7772E281B15008967D7 /* Luz_ErranteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A3AC7782E281B15008967D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3AC7832E281B16008967D7 /* Luz_ErranteUITestsLaunchTests.swift in Sources */,
+				2A3AC7812E281B15008967D7 /* Luz_ErranteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A3AC7742E281B15008967D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3AC7582E281B13008967D7 /* Luz Errante */;
+			targetProxy = 2A3AC7732E281B15008967D7 /* PBXContainerItemProxy */;
+		};
+		2A3AC77E2E281B15008967D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3AC7582E281B13008967D7 /* Luz Errante */;
+			targetProxy = 2A3AC77D2E281B15008967D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A3AC7662E281B13008967D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A3AC7672E281B13008967D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A3AC76B2E281B15008967D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A3AC76C2E281B15008967D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A3AC7842E281B16008967D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A3AC7852E281B16008967D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A3AC7872E281B16008967D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86HY25V569;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxserratosa.Luz-Errante";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A3AC7882E281B16008967D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86HY25V569;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxserratosa.Luz-Errante";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A3AC78A2E281B16008967D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86HY25V569;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxserratosa.Luz-ErranteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luz Errante.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Luz Errante";
+			};
+			name = Debug;
+		};
+		2A3AC78B2E281B16008967D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86HY25V569;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxserratosa.Luz-ErranteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luz Errante.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Luz Errante";
+			};
+			name = Release;
+		};
+		2A3AC78D2E281B16008967D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86HY25V569;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxserratosa.Luz-ErranteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Luz Errante";
+			};
+			name = Debug;
+		};
+		2A3AC78E2E281B16008967D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86HY25V569;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxserratosa.Luz-ErranteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Luz Errante";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A3AC7542E281B13008967D7 /* Build configuration list for PBXProject "Luz Errante" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3AC7842E281B16008967D7 /* Debug */,
+				2A3AC7852E281B16008967D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3AC7862E281B16008967D7 /* Build configuration list for PBXNativeTarget "Luz Errante" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3AC7872E281B16008967D7 /* Debug */,
+				2A3AC7882E281B16008967D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3AC7892E281B16008967D7 /* Build configuration list for PBXNativeTarget "Luz ErranteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3AC78A2E281B16008967D7 /* Debug */,
+				2A3AC78B2E281B16008967D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3AC78C2E281B16008967D7 /* Build configuration list for PBXNativeTarget "Luz ErranteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3AC78D2E281B16008967D7 /* Debug */,
+				2A3AC78E2E281B16008967D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A3AC7512E281B13008967D7 /* Project object */;
+}
