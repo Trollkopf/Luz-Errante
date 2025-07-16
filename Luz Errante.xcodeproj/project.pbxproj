@@ -18,6 +18,7 @@
 		2A3AC7772E281B15008967D7 /* Luz_ErranteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC7762E281B15008967D7 /* Luz_ErranteTests.swift */; };
 		2A3AC7812E281B15008967D7 /* Luz_ErranteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC7802E281B15008967D7 /* Luz_ErranteUITests.swift */; };
 		2A3AC7832E281B16008967D7 /* Luz_ErranteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC7822E281B16008967D7 /* Luz_ErranteUITestsLaunchTests.swift */; };
+		2A3AC7982E282CF2008967D7 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC7972E282CF2008967D7 /* Knight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		2A3AC77C2E281B15008967D7 /* Luz ErranteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luz ErranteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3AC7802E281B15008967D7 /* Luz_ErranteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luz_ErranteUITests.swift; sourceTree = "<group>"; };
 		2A3AC7822E281B16008967D7 /* Luz_ErranteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luz_ErranteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A3AC7972E282CF2008967D7 /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,12 @@
 		2A3AC75B2E281B13008967D7 /* Luz Errante */ = {
 			isa = PBXGroup;
 			children = (
+				2A3AC7942E281BAD008967D7 /* Supporting Files */,
+				2A3AC7932E281B9C008967D7 /* Sounds */,
+				2A3AC7922E281B77008967D7 /* Sprites */,
+				2A3AC7912E281B6B008967D7 /* UI */,
+				2A3AC7902E281B59008967D7 /* Characters */,
+				2A3AC78F2E281B47008967D7 /* Scenes */,
 				2A3AC75C2E281B13008967D7 /* AppDelegate.swift */,
 				2A3AC75E2E281B13008967D7 /* GameScene.sks */,
 				2A3AC7602E281B13008967D7 /* Actions.sks */,
@@ -129,6 +137,49 @@
 				2A3AC7822E281B16008967D7 /* Luz_ErranteUITestsLaunchTests.swift */,
 			);
 			path = "Luz ErranteUITests";
+			sourceTree = "<group>";
+		};
+		2A3AC78F2E281B47008967D7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2A3AC7902E281B59008967D7 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC7972E282CF2008967D7 /* Knight.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		2A3AC7912E281B6B008967D7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2A3AC7922E281B77008967D7 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		2A3AC7932E281B9C008967D7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		2A3AC7942E281BAD008967D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A3AC7982E282CF2008967D7 /* Knight.swift in Sources */,
 				2A3AC7632E281B13008967D7 /* GameScene.swift in Sources */,
 				2A3AC7652E281B13008967D7 /* GameViewController.swift in Sources */,
 				2A3AC75D2E281B13008967D7 /* AppDelegate.swift in Sources */,
