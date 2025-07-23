@@ -8,29 +8,36 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import AVFoundation
 
 class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Forzamos la carga de sonidos
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [])
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch {
+            print("Error al activar AVAudioSession: \(error)")
+        }
+        
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let view = self.view as? SKView {
-                let scene = GameScene(size: view.bounds.size) // tu clase personalizada
-                scene.scaleMode = .aspectFill
-                view.presentScene(scene)
-                
-                view.ignoresSiblingOrder = true
-                view.showsFPS = true
-                view.showsNodeCount = true
-            }
-
+            let scene = GameScene(size: view.bounds.size)
+            scene.scaleMode = .resizeFill
+            view.presentScene(scene)
+        }
+        
+        if let view = self.view as? SKView {
+            // Cargar el menú principal al iniciar
+            let scene = MainMenuScene(size: view.bounds.size)
+            scene.scaleMode = .resizeFill
+            view.presentScene(scene)
             
             view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
+            view.showsFPS = false
+            view.showsNodeCount = false
         }
     }
 
@@ -45,4 +52,5 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+
 }
